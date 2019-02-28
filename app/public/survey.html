@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Friend Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css" />
+    <!-- CSS animation library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/dragonball.png">
+</head>
+
+<body background="/ff-bg-g.jpg">
+    <div class="container jumbo wow fadeInLeft" data-wow-duration="1.2s">
+        <h3 class="wow fadeIn" data-wow-delay="1s">Survey Questions</h3>
+        <hr>
+        <h4>About You</h4>
+        <br>
+        Your Name
+        <div class="input">
+            <input id="userName" type="text" class="validate">
+            <label> (Required) </label>
+        </div>
+        <br><br>
+        Photo Image Link
+        <div class="input">
+            <input id="userPhoto" type="text" class="validate">
+            <label> (Required) </label>
+        </div>
+        <br>
+
+        <div class="row">
+            <h5>Question 1</h5>
+            <p class="wow fadeIn" data-wow-delay=".5s">Taco Bell is one of my favorite restaurants.</p>
+            <div class="input-field col s5">
+                <select id="ans1">
+                    <!-- <option value="" disabled selected>Choose your option</option> -->
+                    <option value="1">1 &nbsp;&nbsp;&nbsp;(Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3" selected>3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 &nbsp;&nbsp;&nbsp;(Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Question 2</h5>
+            <p class="wow fadeIn" data-wow-delay=".5s">Aladin is one of the best Disney movies.</p>
+            <div class="input-field col s5">
+                <select id="ans2">
+                    <!-- <option value="" disabled selected>Choose your option</option> -->
+                    <option value="1">1 &nbsp;&nbsp;&nbsp;(Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3" selected>3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 &nbsp;&nbsp;&nbsp;(Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Question 3</h5>
+            <p class="wow fadeIn" data-wow-delay=".5s">I love cats and dogs, prefer cats!</p>
+            <div class="input-field col s5">
+                <select id="ans3">
+                    <!-- <option value="" disabled selected>Choose your option</option> -->
+                    <option value="1">1 &nbsp;&nbsp;&nbsp;(Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3" selected>3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 &nbsp;&nbsp;&nbsp;(Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Question 4</h5>
+            <p class="wow fadeIn" data-wow-delay=".5s">I love javascript, jQuery, Node...</p>
+            <div class="input-field col s5">
+                <select id="ans4">
+                    <!-- <option value="" disabled selected>Choose your option</option> -->
+                    <option value="1">1 &nbsp;&nbsp;&nbsp;(Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3" selected>3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 &nbsp;&nbsp;&nbsp;(Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Question 5</h5>
+            <p class="wow fadeIn" data-wow-delay=".5s">I hope bootstrap could add more components.</p>
+            <div class="input-field col s5">
+                <select id="ans5">
+                    <!-- <option value="" disabled selected>Choose your option</option> -->
+                    <option value="1">1 &nbsp;&nbsp;&nbsp;(Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3" selected>3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 &nbsp;&nbsp;&nbsp;(Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Question 6</h5>
+            <p class="wow fadeIn" data-wow-delay=".5s">Nintendo Switch is an amazing game console.</p>
+            <div class="input-field col s5">
+                <select id="ans6">
+                    <!-- <option value="" disabled selected>Choose your option</option> -->
+                    <option value="1">1 &nbsp;&nbsp;&nbsp;(Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3" selected>3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 &nbsp;&nbsp;&nbsp;(Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Question 7</h5>
+            <p class="wow fadeIn" data-wow-delay=".5s">Monster Hunter series are my favorite games.</p>
+            <div class="input-field col s5">
+                <select id="ans7">
+                    <!-- <option value="" disabled selected>Choose your option</option> -->
+                    <option value="1">1 &nbsp;&nbsp;&nbsp;(Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3" selected>3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 &nbsp;&nbsp;&nbsp;(Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Question 8</h5>
+            <p class="wow fadeIn" data-wow-delay=".5s">I don't like QTE system, no matter how classic the games are.</p>
+            <div class="input-field col s5">
+                <select id="ans8">
+                    <!-- <option value="" disabled selected>Choose your option</option> -->
+                    <option value="1">1 &nbsp;&nbsp;&nbsp;(Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3" selected>3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 &nbsp;&nbsp;&nbsp;(Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Question 9</h5>
+            <p class="wow fadeIn" data-wow-delay=".5s">JoJo Bizarre Adventure is my favorite comic book.</p>
+            <div class="input-field col s5">
+                <select id="ans9">
+                    <!-- <option value="" disabled selected>Choose your option</option> -->
+                    <option value="1">1 &nbsp;&nbsp;&nbsp;(Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3" selected>3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 &nbsp;&nbsp;&nbsp;(Strongly Agree)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Question 10</h5>
+            <p class="wow fadeIn" data-wow-delay=".5s">This is the best survey ever!!</p>
+            <div class="input-field col s5">
+                <select id="ans10">
+                    <!-- <option value="" disabled selected> - Bonus - </option> -->
+                    <option value="1">1 &nbsp;&nbsp;&nbsp;(Agree!!)</option>
+                    <option value="2">2</option>
+                    <option value="3" selected>3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 &nbsp;&nbsp;&nbsp;(Strongly Agree!!)</option>
+                </select>
+            </div>
+        </div>
+        <div class="submit">
+            <button class="btn red darken-3 z-depth-3 waves-effect" id="submit" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="api-link">
+            <a href="/" class="btn transparent z-depth-3 waves-effect">
+                Back</a>
+            <a href="https://github.com/squall2046/FriendFinder" class="btn transparent z-depth-3 waves-effect right">
+                GitHub Repo</a>
+            <a href="/api/friends" class="btn transparent z-depth-3 waves-effect right">
+                API Friends List</a>
+        </div>
+    </div>
+
+    <footer>
+        <br>
+        <hr>
+        <div>Copyright &copy; 2019 <i class="tiny material-icons">favorite_border</i> Isaac Wu</div>
+    </footer>
+
+    <!-- ============================ jq =============================== -->
+    <!-- jquery & javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Link and activate WOW.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script>new WOW().init();</script>
+    <!-- sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('select').formSelect();
+
+            // ====================== 1. Click submit survey ======================
+            $("#submit").on("click", () => {
+                event.preventDefault();
+
+                let userSubmit = {
+                    name: $("#userName").val().trim(),
+                    photo: $("#userPhoto").val().trim(),
+                    scores: [
+                        $('#ans1').val(),
+                        $('#ans2').val(),
+                        $('#ans3').val(),
+                        $('#ans4').val(),
+                        $('#ans5').val(),
+                        $('#ans6').val(),
+                        $('#ans7').val(),
+                        $('#ans8').val(),
+                        $('#ans9').val(),
+                        $('#ans10').val()]
+                };
+
+                // console.log("click submit")
+                if (userSubmit.name.length < 1 || userSubmit.photo.length < 1 || userSubmit.scores.indexOf(NaN) !== -1) {
+                    Swal.fire({
+                        text: 'Survey Missing Required Information.',
+                        title: "D'oh!!",
+                        animation: false,
+                        imageUrl: '/roll.gif',
+                        imageWidth: 300,
+                        imageHeight: 220,
+                        customClass: 'animated tada'
+                    })
+                }
+                else {
+                    // =========== 2. push survey result to friends api array ===========
+                    $.post("/anywhere", userSubmit)
+                        .then((data) => {
+                            console.log("response: ", data.name);
+                            console.log("response: ", data.photo);
+
+                            // =========== 3. alert ===========
+                            Swal.fire({
+                                title: data.name,
+                                text: 'Best Match',
+                                imageUrl: data.photo,
+                                imageWidth: 100,
+                                imageHeight: 100,
+                                width: 600,
+                                padding: '3em',
+                                background: '#fff url("/ff-thumb.jpg")',
+                                backdrop: `rgba(0,0,123,0.4) url("/PYh.gif") center left no-repeat`
+                            })
+
+                            // =========== 4. clear survey input ===========
+                            userSubmit = {
+                                name: $("#userName").val(""),
+                                photo: $("#userPhoto").val("")
+                            };
+                        });
+                };
+            });
+        });
+    </script>
+</body>
+
+</html>

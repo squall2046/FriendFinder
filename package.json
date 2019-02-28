@@ -1,0 +1,29 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "1. FriendFinder survey has 10 questions.\r Each answer will be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/squall2046/FriendFinder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/squall2046/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/squall2046/FriendFinder#readme"
+}
